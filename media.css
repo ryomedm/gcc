@@ -1,0 +1,102 @@
+@media(max-width:376px){
+   .headerTop a{
+      text-align: center;
+      font-size: 26px;
+      float: left;
+      padding: 0;
+      margin: 0px 0px 0px 39px ;
+   }
+   .headerNav{
+      display: none;
+   }
+   .headerMiddle h1{
+      font-size: 28px;
+      padding: 250px 0px 0px 0px ;
+      margin: 0;
+   }
+   .mainInner{
+      height: 85vh;
+   }
+   .mainContents{
+      display: flex;
+      padding: 0;
+      margin: 0;
+      max-width: 360px;
+      margin: 0 auto;
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+   article{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+   }
+   aside{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+   }
+   article h1{
+      font-size: 50px;
+      padding: 50px 0 0 0 ;
+      text-align: center;
+      margin: 0;
+   }
+   article p{
+      font-size: 16px;
+      text-align: center;
+   }
+   aside img{
+      width: 100%;
+      padding-top: 60px;
+   }
+   .gameQa{
+      padding: 0;
+      margin: 0;
+   }
+   .gameQa h1{
+      padding-top: 280px;
+      font-size: 40px;
+   }
+   .gameQa h1,p{
+      padding-left: 20px;
+   }
+   .gameQa2{
+      padding: 280px 0px 0px 30px;
+      margin: 0;
+   }
+   .gameQa2 h1{
+      font-size: 50px;
+   }
+   .gameQa3{
+      padding: 150px 0px 0px 30px;
+      margin: 0;
+   }
+   .gameQa3 h1{
+      font-size: 50px;
+   }
+   .memberContents{
+      height: 35vh;
+   }
+   .memberContents h1{
+      font-size: 50px;
+   }
+   .memberInner{
+      height: 60vh;
+   }
+   .member-list{
+      padding: 0;
+      margin:0px 0px 0px 20px;
+      flex-direction: column;
+   }
+   .member1{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+   }
+   .member2{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+   }
+}
