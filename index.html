@@ -3,15 +3,17 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=, initial-scale=1.0">
-   <title>GCshooting</title>
-   <link rel="stylesheet" href="style.css">
+   <title>Gcshooting</title>
    <link rel="icon" href="images/favcon.png">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media.css">
+   <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
 </head>
 <body>
    <div class="headerInner" id="header">
       <div class="headerContents">
          <div class="headerTop">
-            <h1>GCshooting</h1>
+            <h1><a href="index.html">GCshooting</a></h1>
             <ul class="headerNav">
                <li><a href="#header">ホーム</a></li>
                <li><a href="#game">ゲーム内容</a></li>
@@ -28,10 +30,10 @@
       <div class="mainContents wrapper">
          <article>
             <h1>ゲーム内容</h1>
-            <p>私たちGCCは「GCshooting」というシューティングゲームを作りました。<br>ゲームの特徴３つを紹介します。↓</p>
+            <p>私たちGCCは「GCshooting」というシューティングゲームを作りました。<br>ゲームの特徴３つを紹介します。</p>
          </article>
          <aside>
-            <img src="images/game-pic.png" alt="">
+            <img class="asideGp" src="images/game-pic.png" alt="">
             <p>↑「GCshooting」プレイ画像</p>
          </aside>
       </div>
@@ -55,30 +57,37 @@
          <p>C言語で作成。</p>
       </div>
    </div>
-   <div class="memberInner" id="member">
-      <div class="memberContents">
-         <div class="memberContentsBL">
-            <h1>メンバー紹介</h1>
-            <p>GCCのメンバー紹介。</p>
+   <div id="member">
+      <div class="member">
+         <div class="memberBb">
+            <h1 class="mTitle">メンバー紹介</h1>
+            <p class="mTxt">チーム「GCC」のメンバー紹介です。</p>            
          </div>
       </div>
       <div class="memberList">
-         <div class="member1">
-            <h2>プログラマー</h2>
-            <ul>
-               <li>前田　駿希</li>
-               <li>福田　駿</li>
-               <li>日高　魁</li>
-               <li>藤井翔大</li>
-               <li>根占　真尋</li>
-               <li>廣永　健</li>
-            </ul>
+         <div class="list">
+            <h2 class="mlTitle"><i class="fas fa-crown"></i>チームリーダー</h2>
+            <p>福田駿</p>
          </div>
-         <div class="member2">
-            <h2>Web作成</h2>
-            <ul>
-               <li>夫津木涼介</li>
-            </ul>
+         <div class="list">
+            <h2 class="mlTitle"><i class="fas fa-user-tie"></i>発表者</h2>
+            <p>廣永健</p>
+         </div>
+         <div class="list">
+            <h2 class="mlTitle"><i class="fas fa-keyboard"></i>プログラマー</h2>
+            <p>根占真尋</p>
+         </div>
+         <div class="list">
+            <h2 class="mlTitle"><i class="fas fa-keyboard"></i>プログラム補佐</h2>
+            <p>日高魁</p>
+         </div>
+         <div class="list">
+            <h2 class="mlTitle"><i class="fas fa-pen"></i>ポスター作成</h2>
+            <p>前田駿希</p>
+         </div>
+         <div class="list">
+            <h2 class="mlTitle"><i class="fas fa-code"></i>web制作</h2>
+            <p>夫津木涼介</p>
          </div>
       </div>
    </div>
