@@ -1,102 +1,172 @@
-@media(max-width:376px){
-   .headerTop a{
-      text-align: center;
-      font-size: 26px;
-      float: left;
-      padding: 0;
-      margin: 0px 0px 0px 39px ;
+@media(max-width:1610px){
+   .memberList h1{
+      padding-top: 430px;
    }
-   .headerNav{
+   .mTxt{
       display: none;
    }
+}
+@media(max-width:1508px){
+   .memberList{
+      width: 50%;
+      height: 40%;
+   }
+   .memberList h1{
+      padding-top: 430px;
+   }
+}
+@media(max-width:1420px){
    .headerMiddle h1{
-      font-size: 28px;
-      padding: 250px 0px 0px 0px ;
-      margin: 0;
+      font-size: 54px;
+      padding-top: 430px;
    }
-   .mainInner{
-      height: 85vh;
+}
+@media(max-width:1241px){
+   .headerMiddle h1{
+      font-size: 54px;
    }
-   .mainContents{
-      display: flex;
-      padding: 0;
-      margin: 0;
-      max-width: 360px;
-      margin: 0 auto;
-      flex-wrap: nowrap;
-      flex-direction: column;
-   }
-   article{
-      width: 100%;
-      padding: 0;
-      margin: 0;
+   .btn{
+      width: 20%;
+      padding: 20px 10px;
    }
    aside{
       width: 100%;
+   }
+   .asideGp{
+      margin-top: 120px;
+      margin-left: 120px;
       padding: 0;
-      margin: 0;
+      width: 580px;
+   }
+   aside p{
+      text-align: center;
+      font-size: 20px;
+   }
+   /*ヘッダー、ヘッダーコンテンツここまで*/
+   .wrapper{
+      max-width: 800px;
+      margin: 0 auto;
+   }
+   .mainContents{
+      padding: 0;
+      height: 0;
+   }
+   article{
+      margin-top: 150px;
+      text-align: center;
+      width: 100%;
    }
    article h1{
-      font-size: 50px;
-      padding: 50px 0 0 0 ;
-      text-align: center;
-      margin: 0;
+      font-size: 80px;
    }
    article p{
-      font-size: 16px;
       text-align: center;
-   }
-   aside img{
-      width: 100%;
-      padding-top: 60px;
+      font-size: 20px;
    }
    .gameQa{
+      text-align: center;
       padding: 0;
       margin: 0;
+      width: 100%;
+      padding-top: 420px;
    }
    .gameQa h1{
-      padding-top: 280px;
-      font-size: 40px;
+      font-size: 70px;
    }
-   .gameQa h1,p{
-      padding-left: 20px;
+   .gameQa p{
+      text-align: center;
    }
    .gameQa2{
-      padding: 280px 0px 0px 30px;
-      margin: 0;
+      width: 100%;
    }
    .gameQa2 h1{
-      font-size: 50px;
+      font-size: 90px;
    }
    .gameQa3{
-      padding: 150px 0px 0px 30px;
-      margin: 0;
+      padding-top: 200px;
    }
    .gameQa3 h1{
-      font-size: 50px;
+      font-size:80px;
    }
-   .memberContents{
-      height: 35vh;
+   .member{
+      height: 20vh;
    }
-   .memberContents h1{
-      font-size: 50px;
+   .memberBb{
+      height: 20vh;
    }
-   .memberInner{
-      height: 60vh;
+   .mTitle{
+      padding: 80px 0 0 0;
+      margin: 0;
    }
-   .member-list{
-      padding: 0;
-      margin:0px 0px 0px 20px;
-      flex-direction: column;
-   }
-   .member1{
+   .mTxt{
       padding: 0;
       margin: 0;
-      width: 100%;
    }
-   .member2{
+   .memberList{
+      max-width: 900px;
+      margin: 0 auto;
+   }
+}  
+
+@media(max-width:1022px){
+   .headerMiddle{
+      max-width: 900px;
+      margin: 0 auto;
+   }
+   .headerMiddle h1{
+      font-size: 45px;
+   }
+}
+@media(max-width:851px){
+   .headerMiddle{
+      max-width: 800px;
+      margin: 0 auto;
+   }
+   .headerMiddle h1{
+      padding-top: 430px;
+      font-size: 40px;
+   }
+   .btn{
+      width: 30%;
+   }
+}
+@media(max-width:797px){
+   .headerMiddle{
+      max-width: 650px;
+   }
+   .headerMiddle h1{
+      font-size: 34px;
+   }
+   .mainContents{
+      max-width: 700px;
+      margin: 0 auto;
+   }
+   .asideGp{
+      padding: 0;
+      margin: 5% 0 0 9%;
+   }
+}
+@media(max-width:690px){
+   .mainContents{
+      max-width: 500px;
+      margin: 0 auto;
+   }
+   .asideGp{
+      width: 100%;
+      padding: 0 0 0 0;
+      margin: 20px 0 0 0;
+   }
+   aside p{
       padding: 0;
       margin: 0;
-      width: 100%;
+   }
+}
+@media (max-width:630px){
+   .headerNav{
+      display: none;
+   }
+   .headerTop a{
+      display: inline;
+      text-align: center
    }
 }
