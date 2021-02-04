@@ -18,7 +18,7 @@
 @media(max-width:1420px){
    .headerMiddle h1{
       font-size: 54px;
-      padding-top: 430px;
+      padding-top: 330px;
    }
 }
 @media(max-width:1241px){
@@ -123,7 +123,7 @@
       margin: 0 auto;
    }
    .headerMiddle h1{
-      padding-top: 430px;
+      padding-top: 330px;
       font-size: 40px;
    }
    .btn{
